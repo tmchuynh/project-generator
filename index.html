@@ -10,12 +10,31 @@
     </head>
     <body>
         <h1>Software Development Project Generator</h1>
-        <div class="container">
-          <button id="generate-button">Generate</button>
-          <br>
-          <br>
-          <p>Result: <span id="result">Click the button to generate a project idea</span></p>
-        </div>
-        <script src="script.js"></script>
+    <div class="container">
+      <form>
+        <label for="language">Language:</label>
+        <select id="language">
+          <option value="">Select</option>
+          <option value="javascript">JavaScript</option>
+          <option value="react">React</option>
+          <option value="python">Python</option>
+        </select>
+        <br>
+        <br>
+        <label for="experience">Experience Level:</label>
+        <select id="experience">
+          <option value="">Select</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+        <br>
+        <br>
+        <button id="generate-button">Generate</button>
+      </form>
+      <br>
+      <p>Result: <span id="result">Choose a language and experience level to generate a project</span></p>
+    </div>
+    <script src="script.js"></script>
     </body>
 </html>
