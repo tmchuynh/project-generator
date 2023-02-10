@@ -11,6 +11,21 @@ body {
     border-radius: 10px;
   }
   
+  form {
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
   button {
     width: 120px;
     height: 40px;
