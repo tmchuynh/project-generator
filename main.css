@@ -11,14 +11,6 @@ body {
     border-radius: 10px;
   }
   
-  input[type="number"] {
-    width: 50px;
-    height: 30px;
-    font-size: 20px;
-    text-align: center;
-    margin: 10px;
-  }
-  
   button {
     width: 120px;
     height: 40px;
